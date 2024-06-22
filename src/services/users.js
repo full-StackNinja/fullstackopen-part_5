@@ -1,10 +1,10 @@
-import axios from "axios";
+import axios from 'axios';
 
-const userBaseUrl = "/api/users";
+const userBaseUrl = '/api/users';
 
 const getAllUsers = async () => {
-   const response = await axios.get(userBaseUrl);
-   return response.data;
+  const response = await axios.get(userBaseUrl);
+  return response.data;
 };
 
-export default {getAllUsers}
+export default { getAllUsers };
